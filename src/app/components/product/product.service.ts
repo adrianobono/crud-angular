@@ -9,8 +9,7 @@ import { map, catchError } from "rxjs/operators";
   providedIn: "root",
 })
 export class ProductService {
-  baseUrl = "http://localhost:3001/products";
-  //baseUrl = "https://node-vucijm--3001.local.webcontainer.io/products";
+  baseUrl = "https://node-vucijm--3001.local.webcontainer.io/products";
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) {}
 
